@@ -32,6 +32,7 @@ Before you begin, ensure you have met the following requirements:
 - Node.js and npm 
 - MySQL database
 - Postman (for API testing)
+  
 ## Installation
 Follow these steps to set up the project locally:
 
@@ -40,16 +41,17 @@ Follow these steps to set up the project locally:
 1. Clone the repository:
    
    https://github.com/lgpdinendra/Event_Management_System.git
+   open the clone folder and open event folder after using intellij open Event_Management Folder open.
    cd event/Event_Management
 
-2. Update the application.properties file with your database configuration:
+3. Update the application.properties file with your database configuration:
     spring.datasource.url=jdbc:mysql://localhost:3306/event_management
     spring.datasource.username=your-username
     spring.datasource.password=your-password
     spring.jpa.hibernate.ddl-auto=update
     spring.jpa.show-sql=true
 
-3. Build and run the backend application:
+4. Build and run the backend application:
 
 ### Frontend (React)
 
