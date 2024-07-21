@@ -1,0 +1,95 @@
+
+.data-table-diagram {
+  border-radius: 6px;
+  border: 1px solid var(--tbl-border-color) !important;
+  margin: 5rem 2rem;
+}
+
+table {
+  min-width: 900px;
+  width: 100%;
+  border-collapse: collapse;
+  color: var(--text-color-inverted);
+  border: 1px solid black;
+}
+
+td, th {
+  padding: 14px 12px;
+  margin-left: 15px;
+  border: 1px solid black;
+}
+
+thead {
+  text-align: left;
+  font-size: 17px;
+  background-color: var(--thead-bg-color);
+}
+
+th {
+  text-align: center;
+  border: 1px solid black;
+}
+
+tr {
+  border: 1px solid black;
+}
+
+.dt-cell-action {
+  text-align: center;
+}
+
+.dt-status {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 6px;
+}
+
+.eventtable-button-edit {
+  background-color: green;
+  margin-right: 0.5rem;
+  color: white;
+}
+
+.eventtable-button-delete {
+  background-color: red;
+  color: white;
+}
+
+
+@media (max-width: 768px) {
+  .data-table-diagram {
+    margin: 2rem 1rem;
+  }
+
+  table {
+    min-width: 100%;
+    border: none; 
+  }
+
+  td, th {
+    font-size: 14px;
+    padding: 10px 8px;
+  }
+
+  thead {
+    font-size: 14px;
+  }
+
+  th {
+    text-align: left; 
+  }
+
+  .dt-cell-action {
+    display: block;
+    text-align: left;
+    margin-top: 1rem;
+  }
+
+  .eventtable-button-edit,
+  .eventtable-button-delete {
+    display: block;
+    margin: 0.5rem 0;
+    width: 100%;
+  }
+}
