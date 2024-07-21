@@ -39,8 +39,8 @@ Follow these steps to set up the project locally:
 
 1. Clone the repository:
    
-   git clone https://github.com/your-usernameevent-management-app. git
-   cd event-management-app
+   https://github.com/lgpdinendra/Event_Management_System.git
+   cd event/Event_Management
 
 2. Update the application.properties file with your database configuration:
     spring.datasource.url=jdbc:mysql://localhost:3306/event_management
@@ -55,8 +55,8 @@ Follow these steps to set up the project locally:
 
 1. Clone the repository:
    
-   git clone https://github.com/your-username/event-management-app.git
-   cd event-management-app
+   https://github.com/lgpdinendra/Event_Management_System.git
+   cd event/event_management_frontend
 
 2. Install the dependencies:
     npm install
